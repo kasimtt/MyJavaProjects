@@ -1,0 +1,5 @@
+package oppWithNLayered.entities;
+
+public class Product {
+
+}

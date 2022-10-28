@@ -1,0 +1,5 @@
+package oppWithNLayered.dataAccess;
+
+public class HibernateProductDao {
+
+}

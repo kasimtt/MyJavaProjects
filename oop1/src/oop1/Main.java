@@ -1,0 +1,50 @@
+package oop1;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+	  
+		
+	    Product product1 = new Product();
+		//set
+		product1.setName("semeens");
+		product1.setDiscount(6);
+		product1.setImageUrl("www.com");
+		product1.setUnitInStock(4);
+		product1.setUnitPrice(5000);
+		
+	    Product product2 = new Product();
+		//set
+	    product2.setName("hytech");
+		product2.setDiscount(6);
+		product2.setImageUrl("www.com");
+		product2.setUnitInStock(4);
+		product2.setUnitPrice(5000);
+	    Product product3 = new Product();
+	  		//set
+	    product3.setName("hytech");
+		product3.setDiscount(6);
+		product3.setImageUrl("www.com");
+		product3.setUnitInStock(4);
+		product3.setUnitPrice(5000);
+		
+	    Product[] products= {product1,product2,product3,};
+
+	
+	    System.out.println("<ul>"); 
+	    for (Product product : products) 
+	    {
+			System.out.println("<li>"+product.getName()+"</li>");
+		}
+	    System.out.println("</ul>");
+	    
+	    
+	    IndividualCustomer individualCustomer = new IndividualCustomer();
+	    individualCustomer.setId(33);
+	    individualCustomer.setCustomerNumber("4343");
+	    individualCustomer.setLastName("elma");
+		
+	}
+
+}

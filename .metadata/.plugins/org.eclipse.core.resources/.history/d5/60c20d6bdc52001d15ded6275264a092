@@ -1,0 +1,8 @@
+package oppWithNLayered.dataAccess;
+
+import oppWithNLayered.entities.Product;
+
+public interface ProductDao implements ProductDao {
+	void add(Product product);
+	
+}

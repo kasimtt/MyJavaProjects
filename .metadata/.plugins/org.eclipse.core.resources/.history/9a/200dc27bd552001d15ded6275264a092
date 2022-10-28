@@ -1,0 +1,11 @@
+package oppWithNLayered.dataAccess;
+
+import oppWithNLayered.entities.Product;
+
+public class JdbcProductDao {
+
+	public void Add(Product product)
+	{
+		System.out.println("jdbc ile eklendi");
+	}
+}

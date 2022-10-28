@@ -1,0 +1,9 @@
+package OppWithLayeredOdev.entity;
+
+public class Course {
+	
+	private int kursId;
+	private String kursName;
+	private double 
+
+}

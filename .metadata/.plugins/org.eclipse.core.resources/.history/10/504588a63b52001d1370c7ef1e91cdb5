@@ -1,0 +1,43 @@
+package oop1;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+	    Product product3 = new Product();
+		//set
+		product3.name = "semeens";
+		product3.unitPrice = 3232;
+		product3.unitInStock = 34;
+		product3.discount = 33;
+		product3.imageUrl = "bilmemne.jpg";
+		
+	    Product product1 = new Product();
+		//set
+		product1.name = "hytech";
+		product1.unitPrice = 3242;
+		product1.unitInStock = 34;
+		product1.discount = 34;
+		product1.imageUrl = "bilmemne3.jpg";
+		
+	    Product product2 = new Product();
+		//set
+		product2.name = "semeens343";
+		product2.unitPrice = 323342;
+		product2.unitInStock = 34;
+		product2.discount = 33;
+		product2.imageUrl = "bilme43mne.jpg";
+		
+	    Product[] products= {product3,product1,product2};
+
+	
+	    System.out.println("<ul>"); 
+	    for (Product product : products) 
+	    {
+			System.out.println("<li>"+product.name+"</li>");
+		}
+	    System.out.println("</ul>");
+		
+	}
+
+}

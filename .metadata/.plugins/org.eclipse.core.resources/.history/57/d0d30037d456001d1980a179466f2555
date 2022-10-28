@@ -1,0 +1,5 @@
+package OppWithLayeredOdev.dataAccess;
+
+public class HibernateCourseDao {
+
+}

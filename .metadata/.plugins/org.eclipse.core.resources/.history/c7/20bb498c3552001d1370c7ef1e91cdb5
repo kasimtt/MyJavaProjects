@@ -1,0 +1,18 @@
+package oop1;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Product product = new Product();
+		
+		product.name = "kasim";
+		product.unitPrice = 3232;
+		product.unitInStock = 34;
+		product.discount = 33;
+		product.imageUrl = "bilmemne.jpg";
+		
+		System.out.println(product.name);
+		
+	}
+
+}

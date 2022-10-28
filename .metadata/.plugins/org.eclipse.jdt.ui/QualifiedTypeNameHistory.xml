@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="oppWithNLayered.business.ProductManager"/>
+    <fullyQualifiedTypeName name="oppWithNLayered.dataAccess.HibernateProductDao"/>
+    <fullyQualifiedTypeName name="oppWithNLayered.entities.Product"/>
+    <fullyQualifiedTypeName name="oppWithNLayered.dataAccess.ProductDao"/>
+    <fullyQualifiedTypeName name="oppWithNLayered.dataAccess.JdbcProductDao"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="oppWithNLayered.core.logging.Logger"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="oppWithNLayered.core.logging.DatabaseLogger"/>
+    <fullyQualifiedTypeName name="oppWithNLayered.core.logging.FileLogger"/>
+    <fullyQualifiedTypeName name="OppWithLayeredOdev.entity.Course"/>
+</qualifiedTypeNameHistroy>

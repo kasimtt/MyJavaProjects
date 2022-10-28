@@ -1,0 +1,5 @@
+package OppWithLayeredOdev.core.logging;
+
+public interface Logger {
+
+}
